@@ -27,3 +27,7 @@ keymap.set("n", "<down>", '<cmd>echo "Dont be a pussy. Use j to move!!"<CR>')
 keymap.set("n", "<space>rn", vim.lsp.buf.rename, {})
 
 keymap.set("n", "-", "<CMD>Oil --float<CR>", {})
+
+keymap.set({ "n", "x", "o" }, "s", function()
+  require("flash").jump()
+end, { desc = "Flash" })
