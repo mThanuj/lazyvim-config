@@ -19,10 +19,10 @@ keymap.set("x", "<leader>P", '"_dp', { noremap = true, silent = true })
 keymap.set("n", "B", "^", { desc = "Move to start of line" })
 keymap.set("n", "E", "$", { desc = "Move to end of line" })
 
-keymap.set("n", "<left>", '<cmd>echo "Dont be a pussy. Use h to move!!"<CR>')
-keymap.set("n", "<right>", '<cmd>echo "Dont be a pussy. Use l to move!!"<CR>')
-keymap.set("n", "<up>", '<cmd>echo "Dont be a pussy. Use k to move!!"<CR>')
-keymap.set("n", "<down>", '<cmd>echo "Dont be a pussy. Use j to move!!"<CR>')
+-- keymap.set("n", "<left>", '<cmd>echo "Dont be a pussy. Use h to move!!"<CR>')
+-- keymap.set("n", "<right>", '<cmd>echo "Dont be a pussy. Use l to move!!"<CR>')
+-- keymap.set("n", "<up>", '<cmd>echo "Dont be a pussy. Use k to move!!"<CR>')
+-- keymap.set("n", "<down>", '<cmd>echo "Dont be a pussy. Use j to move!!"<CR>')
 
 keymap.set("n", "<space>rn", vim.lsp.buf.rename, {})
 
